@@ -1,0 +1,602 @@
+[{
+    "dashboard": [{
+        "title": "Dashboard",
+        "name": "sidebar.mainmenu",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-home-4-line"
+    }]
+  },
+  {
+    "vendor": [
+        {
+            "title": "Dashboard",
+            "name": "Dashboard",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+                "name": "dashboard.vdashboard"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-home-4-line"
+        },
+        {
+            "title": "Toko Saya",
+            "name": "mystore",
+            "is_heading": true,
+            "is_active": false,
+            "link": {
+                "name": ""
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-store-3-fill",
+            "children": [{
+                "title": "Produk",
+                "name": "submenu.produk",
+                "is_active": false,
+                "is_icon_class": true,
+                "icon": "ri-checkbox-blank-circle-line",
+                "link": {
+                    "name": ""
+                },
+                "class_name": "",
+                "children": [{
+                    "title": "Material",
+                    "name": "sidebar.material",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "material.material"
+                    },
+                    "class_name": ""
+                },
+                {
+                  "title": "Perbandingan Harga",
+                  "name": "sidebar.pricediff",
+                  "is_heading": false,
+                  "is_active": false,
+                  "link": {
+                    "name": "material.pricecomparison"
+                  },
+                  "class_name": "",
+                  "is_icon_class": true,
+                  "icon": "ri-checkbox-blank-circle-line"
+                }]
+            }, {
+                "title": "Pengaturan",
+                "name": "submenu.setting",
+                "is_active": true,
+                "is_icon_class": true,
+                "icon": "ri-checkbox-blank-circle-line",
+                "link": {
+                    "name": ""
+                },
+                "class_name": "",
+                "children": [{
+                    "title": "Informasi",
+                    "name": "submenu.infor",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "setting.informasi"
+                    },
+                    "class_name": ""
+                },{
+                    "title": "Penjualan",
+                    "name": "submenu.pjualan",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "setting.penjualan"
+                    },
+                    "class_name": ""
+                },{
+                    "title": "Etalase",
+                    "name": "submenu.etalase",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "setting.etalase"
+                    },
+                    "class_name": ""
+                },{
+                    "title": "Pengiriman",
+                    "name": "submenu.pengirim",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "setting.pengiriman"
+                    },
+                    "class_name": ""
+                },{
+                    "title": "Promo Voucher",
+                    "name": "submenu.promovoc",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "setting.promo-voucher"
+                    },
+                    "class_name": ""
+                },{
+                    "title": "Templat Chat",
+                    "name": "submenu.chat",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "setting.template-chat"
+                    },
+                    "class_name": ""
+                },
+                {
+                  "title": "Gudang",
+                  "name": "sidebar.warehouse",
+                  "is_heading": false,
+                  "is_active": false,
+                  "link": {
+                    "name": "warehouse.warehouse"
+                  },
+                  "class_name": "",
+                  "is_icon_class": true,
+                  "icon": "ri-checkbox-blank-circle-line"
+                }]
+            }, {
+                "title": "Dompet Vendor",
+                "name": "submenu.wallet",
+                "is_heading": false,
+                "is_active": false,
+                "link": {
+                  "name": "setting.wallet"
+                },
+                "class_name": "",
+                "is_icon_class": true,
+                "icon": "ri-checkbox-blank-circle-line"
+            }, {
+                "title": "Promo",
+                "name": "submenu.ads",
+                "is_heading": false,
+                "is_active": false,
+                "link": {
+                  "name": "ads"
+                },
+                "class_name": "",
+                "is_icon_class": true,
+                "icon": "ri-checkbox-blank-circle-line",
+                "children": [{
+                    "title": "Pencarian",
+                    "name": "submenu.ads_search",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "ads.search"
+                    },
+                    "class_name": ""
+                },{
+                    "title": "Produk Serupa",
+                    "name": "submenu.ads_related",
+                    "is_active": false,
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line",
+                    "link": {
+                        "name": "ads.related"
+                    },
+                    "class_name": ""
+                }]
+            }]
+        },
+        {
+            "title": "Kompetitor",
+            "name": "Kompetitor",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+                "name": "material.competitor"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-contacts-fill"
+        },
+        {
+            "title": "Penjualan",
+            "name": "transaction",
+            "is_heading": true,
+            "is_active": false,
+            "link": {
+                "name": ""
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-file-list-3-line",
+            "children": [{
+                    "title": "All Booking",
+                    "name": "sidebar.bookingChild.all",
+                    "is_active": false,
+                    "link": {
+                        "name": "booking.all"
+                    },
+                    "class_name": "",
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line"
+                },
+                {
+                    "title": "History Transaction",
+                    "name": "sidebar.bookingChild.history",
+                    "is_active": false,
+                    "link": {
+                        "name": "booking.history"
+                    },
+                    "class_name": "",
+                    "is_icon_class": true,
+                    "icon": "ri-checkbox-blank-circle-line"
+                }
+            ]
+        },
+        {
+            "title": "Chat",
+            "name": "Chat",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+                "name": "app.chat"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-message-2-line"
+        },
+        {
+            "title": "Bantuan",
+            "name": "help",
+            "is_heading": true,
+            "is_active": false,
+            "link": {
+                "name": ""
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-questionnaire-line",
+            "children": [{
+                "title": "Ticketing",
+                "name": "sidebar.ticketing",
+                "is_active": false,
+                "link": {
+                    "name": "ticket.ticket"
+                },
+                "class_name": "",
+                "is_icon_class": true,
+                "icon": "ri-checkbox-blank-circle-line"
+            }]
+        }
+    ]
+  },
+  {
+    "admin": [{
+        "title": "Akses Pertama",
+        "name": "Akses Pertama",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": "dashboard.home-1"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-home-4-line"
+  
+    },{
+        "title": "Vendor",
+        "name": "vendor",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-chat-smile-2-line",
+        "children": [
+            {
+              "title": "Terdaftar",
+              "name": "sidebar.vendorterdaftar",
+              "is_active": false,
+              "link": {
+                "name": "vendor.vendor"
+              },
+              "class_name": "",
+              "is_icon_class": true,
+              "icon": "ri-checkbox-blank-circle-line"
+            },
+            {
+              "title": "Perlu Verifikasi",
+              "name": "sidebar.verifdata",
+              "is_active": false,
+              "link": {
+                "name": "vendor.vendorverif"
+              },
+              "class_name": "",
+              "is_icon_class": true,
+              "icon": "ri-checkbox-blank-circle-line"
+            },
+            {
+              "title": "Request Material",
+              "name": "sidebar.verifcategory",
+              "is_active": false,
+              "link": {
+                "name": "vendor.vendorcategory"
+              },
+              "class_name": "",
+              "is_icon_class": true,
+              "icon": "ri-checkbox-blank-circle-line"
+            },
+            {
+              "title": "Perlu Verifikasi",
+              "name": "sidebar.verifmerk",
+              "is_active": false,
+              "link": {
+                "name": "vendor.vendormerk"
+              },
+              "class_name": "",
+              "is_icon_class": true,
+              "icon": "ri-checkbox-blank-circle-line"
+            },
+            {
+              "title": "Add",
+              "name": "sidebar.adddata",
+              "is_active": false,
+              "link": {
+                "name": "vendor.addvendor"
+              },
+              "class_name": "",
+              "is_icon_class": true,
+              "icon": "ri-checkbox-blank-circle-line"
+            }]
+    },{
+        "title": "Contractor",
+        "name": "contractor",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-chat-smile-2-fill",
+        "children": [{
+            "title": "Contractor",
+            "name": "sidebar.contractor",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+                "name": "contractor.contractor"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },{
+            "title": "Add",
+            "name": "sidebar.adddata",
+            "is_active": false,
+            "link": {
+              "name": "contractor.addcontractor"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },{
+            "title": "Perlu Verifikasi",
+            "name": "sidebar.verifdata",
+            "is_active": false,
+            "link": {
+              "name": "contractor.contractorverif"
+            },
+            "is_icon_class": true,
+            "class_name": "",
+            "icon": "ri-checkbox-blank-circle-line"
+          }]
+    },{
+        "title": "Master",
+        "name": "master",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-database-line",
+        "children": [{
+            "title": "Type",
+            "name": "sidebar.type",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "type.type"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },
+          {
+            "title": "Category",
+            "name": "sidebar.materialcategory",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "category.category"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },{
+            "title": "Material",
+            "name": "sidebar.material",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "admin.master-material"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },
+          {
+            "title": "Template",
+            "name": "sidebar.template",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "template.template"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },
+          {
+            "title": "Document",
+            "name": "sidebar.document",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "document.document"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          }]
+    },{
+        "title": "Report",
+        "name": "report",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-bar-chart-box-line",
+        "children": [{
+            "title": "Report Transaction",
+            "name": "sidebar.reporttransvendor",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "transaction.all"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+        }]
+    },{
+        "title": "Users",
+        "name": "users",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-user-settings-line",
+        "children": [{
+            "title": "Users",
+            "name": "sidebar.users",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "user.user"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },
+          {
+            "title": "Roles",
+            "name": "sidebar.roles",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "role.role"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },
+          {
+            "title": "User Log Activity",
+            "name": "sidebar.userManage.usrLog",
+            "is_active": false,
+            "link": {
+              "name": "user.user-log"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },{
+            "title": "Ticketing",
+            "name": "sidebar.ticketing",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "ticket.ticket"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          },
+          {
+            "title": "Help",
+            "name": "sidebar.help",
+            "is_heading": false,
+            "is_active": false,
+            "link": {
+              "name": "help.help"
+            },
+            "class_name": "",
+            "is_icon_class": true,
+            "icon": "ri-checkbox-blank-circle-line"
+          }]
+    }]
+  },
+  {
+    "contractor": [{
+        "title": "Akun Saya",
+        "name": "profile",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-home-4-line"
+  
+    }]
+  },
+  {
+    "noncontractor": [{
+        "title": "Akun Saya",
+        "name": "profile",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-home-4-line"
+  
+    }]
+  }
+  ]

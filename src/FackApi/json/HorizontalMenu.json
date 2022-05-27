@@ -1,0 +1,801 @@
+[{
+  "dashboard": [
+    {
+      "title": "Dashboard",
+      "name": "sidebar.dashboard1",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "dashboard.home-1"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-4-line"
+    }
+  ]
+},
+{
+  "vendor": [
+    {
+      "title": "Material",
+      "name": "sidebar.material",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "material.material"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-gear-fill",
+      "children": [{
+          "title": "Add",
+          "name": "sidebar.adddata",
+          "is_active": false,
+          "link": {
+            "name": "material.addmaterial"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "Category",
+          "name": "sidebar.materialcategory",
+          "is_active": false,
+          "link": {
+            "name": "material.catmaterial"
+          },
+          "class_name": ""
+        }
+      ]
+    },
+    {
+      "title": "Transaksi",
+      "name": "sidebar.transaksi",
+      "is_heading": false,
+      "is_active": false,
+      "link": "",
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-gear-fill",
+      "children": [{
+          "title": "Summary",
+          "name": "sidebar.transactionsummary",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.summary"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Transaksi project per-Vendor",
+          "name": "sidebar.dettrans2",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.trans-1"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Transaksi vendor by Tanggal",
+          "name": "sidebar.dettrans3",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.trans-2"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Transaksi per-Material",
+          "name": "sidebar.dettrans4",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.trans-3"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Summary",
+          "name": "sidebar.dettrans5",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Summary",
+          "name": "sidebar.dettrans6",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Summary",
+          "name": "sidebar.dettrans7",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Summary",
+          "name": "sidebar.dettrans8",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Summary",
+          "name": "sidebar.dettrans9",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        },
+        {
+          "title": "Summary",
+          "name": "sidebar.dettrans10",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": "",
+          "is_icon_class": false,
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "title": "Transportasi",
+      "name": "sidebar.transportasi",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-gear-fill",
+      "children": [{
+        "title": "Transport per Vendor",
+        "name": "sidebar.vendorTrans.trans1",
+        "is_active": false,
+        "link": {
+          "name": "transportasi.coming-soon"
+        },
+        "class_name": ""
+      },
+      {
+        "title": "Jarak ke Vendor",
+        "name": "sidebar.vendorTrans.trans2",
+        "is_active": false,
+        "link": {
+          "name": "transportasi.coming-soon"
+        },
+        "class_name": ""
+      }
+    ]
+    },
+    {
+      "title": "Booking",
+      "name": "sidebar.booking",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-gear-fill",
+      "children": [
+      {
+        "title": "All Booking",
+        "name": "sidebar.bookingChild.all",
+        "is_active": false,
+        "link": {
+          "name": "booking.all"
+        },
+        "class_name": ""
+      },
+      {
+        "title": "Contactor Booking",
+        "name": "sidebar.bookingChild.contractor",
+        "is_active": false,
+        "link": {
+          "name": "booking.contractor"
+        },
+        "class_name": ""
+      },
+      {
+        "title": "Material Booking",
+        "name": "sidebar.bookingChild.material",
+        "is_active": false,
+        "link": {
+          "name": "booking.material"
+        },
+        "class_name": ""
+      }
+    ]
+    },
+    {
+      "title": "Wishlist",
+      "name": "sidebar.wishlist",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "wishlist.wishlist"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-gear-fill"
+    },
+    {
+      "title": "Others",
+      "name": "sidebar.vothers",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-gear-fill",
+      "children": [{
+          "title": "sidebar.lainCheckKom",
+          "name": "sidebar.lainCheckKom",
+          "is_active": false,
+          "link": {},
+          "class_name": ""
+        },
+        {
+          "title": "sidebar.lainLihatMat",
+          "name": "sidebar.lainLihatMat",
+          "is_active": false,
+          "link": {},
+          "class_name": ""
+        },
+        {
+          "title": "sidebar.lainPilPeng",
+          "name": "sidebar.lainPilPeng",
+          "is_active": false,
+          "link": {},
+          "class_name": ""
+        },
+        {
+          "title": "sidebar.lainInfMat",
+          "name": "sidebar.lainInfMat",
+          "is_active": false,
+          "link": {},
+          "class_name": ""
+        },
+        {
+          "title": "sidebar.lainGrafPerm",
+          "name": "sidebar.lainGrafPerm",
+          "is_active": false,
+          "link": {},
+          "class_name": ""
+        }
+      ]
+    }
+  ]
+}, {
+  "admin": [{
+      "title": "Master Data",
+      "name": "sidebar.masterdata",
+      "is_heading": true,
+      "is_active": false,
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": ""
+    },
+    {
+      "title": "Vendor",
+      "name": "sidebar.vendor",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "vendor.vendor"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line",
+      "children": [{
+        "title": "Add",
+        "name": "sidebar.adddata",
+        "is_active": false,
+        "link": {
+          "name": "vendor.addvendor"
+        },
+        "class_name": ""
+      }]
+    },
+    {
+      "title": "Contractor",
+      "name": "sidebar.contractor",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "contractor.contractor"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line",
+      "children": [{
+        "title": "Add",
+        "name": "sidebar.adddata",
+        "is_active": false,
+        "link": {
+          "name": "contractor.addcontractor"
+        },
+        "class_name": ""
+      }]
+    },
+    {
+      "title": "Type",
+      "name": "sidebar.type",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "type.type"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Category",
+      "name": "sidebar.materialcategory",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "category.category"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Users",
+      "name": "sidebar.users",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "user.user"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Roles",
+      "name": "sidebar.roles",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": "role.role"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Transaction Summary",
+      "name": "sidebar.transactionsummary",
+      "is_heading": true,
+      "is_active": false,
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": ""
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ1",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ2",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ3",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ4",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ5",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ6",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ7",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "Admin Summary",
+      "name": "sidebar.adminTransSumm.summ8",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },
+    {
+      "title": "User Summary",
+      "name": "sidebar.usersummary",
+      "is_heading": true,
+      "is_active": false,
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": ""
+    },{
+      "title": "User Summary",
+      "name": "sidebar.userSumm.summ1",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    },{
+      "title": "User Summary",
+      "name": "sidebar.userSumm.summ2",
+      "is_active": false,
+      "link": {
+        "name": "transaksi.coming-soon"
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-chat-check-line"
+    }
+  ]
+  }, {
+    "contractor" : [
+      {
+        "title": "CAD",
+        "name": "sidebar.sync",
+        "is_active": false,
+        "link": {
+          "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-chat-check-line",
+        "children": [{
+          "title": "Import CAD",
+          "name": "sidebar.cadMenu.cad1",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "Sync Material",
+          "name": "sidebar.cadMenu.cad2",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        }
+      ]
+      },
+      {
+        "title": "WCN",
+        "name": "sidebar.wcn",
+        "is_active": false,
+        "link": {
+          "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-chat-check-line",
+        "children": [
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn1",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn2",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn3",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn4",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn5",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn6",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn7",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn8",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn9",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn10",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn11",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn12",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn13",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn14",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn15",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn16",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn17",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn18",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn19",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "WCN Menu",
+          "name": "sidebar.wcnMenu.wcn20",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        }
+      ]
+      }
+    ]
+  }, {
+    "noncontractor" : [
+      {
+        "title": "Check & Order Material",
+        "name": "sidebar.cekOrderMat",
+        "is_active": false,
+        "link": {
+          "name": ""
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-chat-check-line",
+        "children": [
+        {
+          "title": "Check Material",
+          "name": "sidebar.checkOrderMaterial.check1",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "Vendor Recomendation",
+          "name": "sidebar.checkOrderMaterial.check2",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        },
+        {
+          "title": "Purchase Order Material",
+          "name": "sidebar.checkOrderMaterial.check3",
+          "is_active": false,
+          "link": {
+            "name": "transaksi.coming-soon"
+          },
+          "class_name": ""
+        }
+        ]
+      }
+    ]
+  }
+]

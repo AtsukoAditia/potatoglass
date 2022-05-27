@@ -1,0 +1,31 @@
+{
+    "code": "id",
+    "messages": {
+      "alpha": "bidang {_field_} hanya boleh berisi karakter alfabet",
+      "alpha_num": "bidang {_field_} hanya boleh berisi karakter alfanumerik",
+      "alpha_dash": "bidang {_field_} mungkin berisi karakter alfanumerik serta tanda hubung dan garis bawah",
+      "alpha_spaces": "bidang {_field_} hanya boleh berisi karakter alfabet dan spasi",
+      "between": "bidang {_field_} harus antara {min} dan {max}",
+      "confirmed": "Konfirmasi bidang {_field_} tidak cocok",
+      "digits": "bidang {_field_} harus berupa angka dan persis berisi {length} digit",
+      "dimensions": "bidang {_field_} harus berukuran {width}px x {height}px",
+      "email": "Harap masukan {_field_} dengan benar",
+      "excluded": "bidang {_field_} bidang bukan nilai yang valid ",
+      "ext": "bidang {_field_} bidang bukan file yang valid ",
+      "image": "bidang {_field_} bidang harus berupa gambar ",
+      "integer": "bidang {_field_} bidang harus berupa bilangan bulat ",
+      "length": "bidang {_field_} bidang harus {length} ",
+      "max_value": "bidang {_field_} bidang harus {max} atau kurang ",
+      "max": "bidang {_field_} bidang tidak boleh lebih dari {length} karakter ",
+      "mimes": "bidang {_field_} bidang harus memiliki jenis file yang valid ",
+      "min_value": "bidang {_field_} bidang harus {min} atau lebih ",
+      "min": "bidang {_field_} bidang setidaknya harus terdiri dari {length} karakter ",
+      "numeric": "bidang {_field_} bidang hanya boleh berisi karakter numerik ",
+      "oneOf": "bidang {_field_} bidang bukan nilai yang valid ",
+      "regex": "bidang {_field_} format bidang tidak valid ",
+      "required_if": "{_field_} sangat dibutuhkan",
+      "required": "{_field_} sangat dibutuhkan",
+      "size": "bidang {_field_} ukuran bidang harus kurang dari {size}KB"
+    }
+  }
+  

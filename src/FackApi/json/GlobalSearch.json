@@ -1,0 +1,392 @@
+[{
+    "dashboard": [{
+      "title": "Dashboard",
+      "name": "sidebar.mainmenu",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-4-line"
+    }]
+  },
+  {
+    "vendor": [{
+        "title": "Dashboard",
+        "name": "Dashboard",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "dashboard.vdashboard"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-home-4-line"
+      }, {
+        "title": "Material",
+        "name": "sidebar.material",
+        "is_active": false,
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line",
+        "link": {
+          "name": "material.material"
+        },
+        "class_name": ""
+      },
+      {
+        "title": "Perbandingan Harga",
+        "name": "sidebar.pricediff",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "material.pricecomparison"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line"
+      }, {
+        "title": "Informasi",
+        "name": "submenu.infor",
+        "is_active": false,
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line",
+        "link": {
+          "name": "setting.informasi"
+        },
+        "class_name": ""
+      }, {
+        "title": "Penjualan",
+        "name": "submenu.pjualan",
+        "is_active": false,
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line",
+        "link": {
+          "name": "setting.penjualan"
+        },
+        "class_name": ""
+      }, {
+        "title": "Etalase",
+        "name": "submenu.etalase",
+        "is_active": false,
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line",
+        "link": {
+          "name": "setting.etalase"
+        },
+        "class_name": ""
+      }, {
+        "title": "Pengiriman",
+        "name": "submenu.pengirim",
+        "is_active": false,
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line",
+        "link": {
+          "name": "setting.pengiriman"
+        },
+        "class_name": ""
+      }, {
+        "title": "Promo Voucher",
+        "name": "submenu.promovoc",
+        "is_active": false,
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line",
+        "link": {
+          "name": "setting.promo-voucher"
+        },
+        "class_name": ""
+      },
+      {
+        "title": "Gudang",
+        "name": "sidebar.warehouse",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "warehouse.warehouse"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line"
+      }, {
+        "title": "Dompet Vendor",
+        "name": "submenu.wallet",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "setting.wallet"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line"
+      }, {
+        "title": "Kompetitor",
+        "name": "Kompetitor",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "material.competitor"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-contacts-fill"
+      },
+      {
+        "title": "Permintaan",
+        "name": "Permintaan",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-user-search-line"
+      }, {
+        "title": "All Booking",
+        "name": "sidebar.bookingChild.all",
+        "is_active": false,
+        "link": {
+          "name": "booking.all"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line"
+      },
+      {
+        "title": "History Transaction",
+        "name": "sidebar.bookingChild.history",
+        "is_active": false,
+        "link": {
+          "name": "booking.history"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line"
+      }, {
+        "title": "Pengiriman",
+        "name": "Pengiriman",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-truck-line"
+      },
+      {
+        "title": "Keuangan",
+        "name": "Keuangan",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-money-dollar-box-line"
+      },
+      {
+        "title": "Chat",
+        "name": "Chat",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-message-2-line"
+      },
+      {
+        "title": "Mitra Proyekita",
+        "name": "Mitra Proyekita",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-group-line"
+      },
+      {
+        "title": "Tentang Proyekkita",
+        "name": "Tentang Proyekkita",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-account-pin-circle-line"
+      },
+      {
+        "title": "Koordinasi",
+        "name": "Koordinasi",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "#"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-user-location-fill"
+      }, {
+        "title": "Ticketing",
+        "name": "sidebar.ticketing",
+        "is_heading": false,
+        "is_active": false,
+        "link": {
+          "name": "ticket.ticket"
+        },
+        "class_name": "",
+        "is_icon_class": true,
+        "icon": "ri-checkbox-blank-circle-line"
+      }
+    ]
+  },
+  {
+    "admin": [{
+      "title": "Akses Pertama",
+      "name": "Akses Pertama",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-4-line"
+
+    }, {
+      "title": "ESG",
+      "name": "ESG",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-function-line"
+
+    }, {
+      "title": "Volume CAD",
+      "name": "Volume CAD",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-community-line"
+
+    }, {
+      "title": "Adm. Proyek",
+      "name": "Adm. Proyek",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-checkbox-multiple-blank-fill"
+
+    }, {
+      "title": "RAB",
+      "name": "RAB",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-shopping-cart-fill"
+
+    }, {
+      "title": "Kendali Proyek",
+      "name": "Kendali Proyek",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-settings-5-fill"
+
+    }, {
+      "title": "Manajemen",
+      "name": "Manajemen",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-checkbox-multiple-line"
+
+    }, {
+      "title": "Vendor",
+      "name": "Vendor",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-group-2-fill"
+
+    }, {
+      "title": "Admin",
+      "name": "Admin",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-shield-user-line"
+
+    }]
+  },
+  {
+    "contractor": [{
+      "title": "Akun Saya",
+      "name": "profile",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-4-line"
+
+    }]
+  },
+  {
+    "noncontractor": [{
+      "title": "Akun Saya",
+      "name": "profile",
+      "is_heading": false,
+      "is_active": false,
+      "link": {
+        "name": ""
+      },
+      "class_name": "",
+      "is_icon_class": true,
+      "icon": "ri-home-4-line"
+
+    }]
+  }
+]
